@@ -1,0 +1,46 @@
+{
+  "username": "student3",
+  "password": "12345",
+  "email": "student3@gmail.com",
+  "role": "STUDENT"
+}
+
+{
+  "username": "student10",
+  "password": "12345",
+  "email": "student10@gmail.com",
+  "role": "STUDENT"
+}
+
+
+
+{
+  "username": "admin",
+  "password": "12345",
+  "email": "admin3@gmail.com",
+  "role": "ADMIN"
+}
+
+
+
+
+
+
+put http://localhost:8081/admin/create-student
+{
+  "userId": 6,
+  "name": "Rahul Sharma",
+  "department": "CSE",
+  "semester": 4
+}
+
+{
+  "userId": 8,
+  "name": "Soumen Mondal",
+  "department": "MCA",
+  "semester": 2
+}
+
+
+
+http://localhost:8081/auth/signup
